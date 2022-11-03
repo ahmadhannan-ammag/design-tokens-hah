@@ -1,76 +1,91 @@
-
-
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.colors = void 0;
 /**
- * Light theme colors
+ * Dark theme colors
  */
 exports.colors = {
     background: {
         default: '#FFFFFF',
-        alternative: '#F2F4F6',
+        alternative: '#FFF',
     },
     text: {
-        default: '#24272A',
-        alternative: '#535A61',
-        muted: '#BBC0C5',
+        default: '#000',
+        alternative: '#000',
+        muted: '#000',
     },
     icon: {
-        default: '#24272A',
-        alternative: '#6A737D',
-        muted: '#BBC0C5',
+        default: '#FFF',
+        alternative: '#FFF',
+        muted: '#FFF',
     },
+
+
     border: {
-        default: '#BBC0C5',
-        muted: '#D6D9DC',
+        default: '#222884',
+        muted: '#222884',
     },
+
+
     overlay: {
-        default: '#00000099',
-        inverse: '#FCFCFC',
-        alternative: '#000000CC',
+        default: '#222884',
+        inverse: '#FFF',
+
+        
+        alternative: '#222884', // pop background color address copied successfully
     },
     primary: {
-        default: '#037DD6',
-        alternative: '#0260A4',
-        muted: '#037DD619',
-        inverse: '#FCFCFC',
-        disabled: '#037DD680',
+        default: '#222884', //selected tab text color
+        muted: '#222884', //selected tab
+        
+        
+        alternative: '#000',
+        inverse: '#FFF',
+        disabled: '#FFF',
     },
+
+
+
+
+
+
+
+
+    
     secondary: {
-        default: '#F66A0A',
-        alternative: '#C65507',
-        muted: '#F66A0A19',
-        inverse: '#FCFCFC',
-        disabled: '#F66A0A80',
+        default: '#222884',
+        alternative: '#222884',
+        muted: '#222884',
+        inverse: '#222884',
+        disabled: '#222884',
     },
     error: {
-        default: '#D73A49',
-        alternative: '#B92534',
-        muted: '#D73A4919',
-        inverse: '#FCFCFC',
-        disabled: '#D73A4980',
+        default: '#FF0000',
+        alternative: '#FF0000',
+        muted: '#FF0000',
+        inverse: '#FF0000',
+        disabled: '#FF0000',
     },
     warning: {
-        default: '#F66A0A',
-        alternative: '#FFC70A',
-        muted: '#FFD33D19',
-        inverse: '#FCFCFC',
-        disabled: '#FFD33D80',
+        default: '#222884',
+        alternative: '#222884',
+        muted: '#222884',
+        inverse: '#222884',
+        disabled: '#222884',
     },
     success: {
-        default: '#28A745',
-        alternative: '#1E7E34',
-        muted: '#28A74519',
-        inverse: '#FCFCFC',
-        disabled: '#28A74580',
+        default: '#222884',
+        alternative: '#222884',
+        muted: '#222884',
+        inverse: '#222884',
+        disabled: '#222884',
     },
     info: {
-        default: '#037DD6',
-        alternative: '#0260A4',
-        muted: '#037DD619',
-        inverse: '#FCFCFC',
-        disabled: '#037DD680',
+        default: '#222884',
+        alternative: '#222884',
+        muted: '#222884',
+        inverse: '#222884',
+        disabled: '#222884',
     },
 };
 //# sourceMappingURL=colors.js.map
